@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho Web</title>
+    <meta name="description" content="Trabalho feito para a aula de desenvolvimento Web">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><!--Cabeçalho o menu de navegação-->
+        <nav>
+            <span class="logo">G</span>
+            <ul class="cabecalho">
+                <li><a href="#l1">Sobre Mim</a></li>
+                <li><a href="#l2">Formação</a></li>
+                <li><a href="#l3">Portfólio</a></li>
+                <li><a href="#l4">Contato</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main><!--Conteudo Principal da Pagina-->
+        <section id="l1"> <!--Seção Sobre Mim-->
+            <h3>Sobre mim:</h3>
+            <h1>Sou <span>Gisela Oliveira</span></h1>
+            <p>
+                Olá, meu nome é Gisela Oliveira, tenho 22 anos e sou estudante de Análise e Desenvolvimento de Sistemas na Uninter.
+                Sou apaixonada por aprender coisas novas e estou sempre em busca de desafios e oportunidades para crescer na área de TI.
+                Nas horas livres, gosto de tocar violão e jogar games, atividades que me ajudam a relaxar e a manter a criatividade em alta.
+            </p>
+            <hr>
+        </section>
+        <section id="l2"><!--Seção Formação-->
+            <h3>Formação:</h3>
+            <h2>Formação <span>academica</span></h2>
+            <p>
+                <ul>
+                    <li>- Cursando Tecnólogo em analise e desenvolvimento
+                        de sistemas - Uninter (2024) <br>
+                    </li>
+                    <li>- Curso RS TI - Senac (lógica de Programação/ html/ css) (2022) </li>
+                </ul>
+            </p>
+            <hr>
+        </section>
+        <section id="l3"><!--Seção Portfólio-->
+            <h2>Meu <span>Portfólio</span></h2>
+            <h3>Projeto de uma loja de açai e cupuaçu em python:</h3>
+            <div class="proj"><!--Projeto para loja de açai-->
+                <p>
+                    Projeto feito para faculdade, onde deveria criar uma interface de uma loja de açai e cupuaçu em python.
+                </p>
+                <!-- Link para o projeto da loja de açaí no GitHub -->
+                <a href="https://github.com/GiselaOliveira/Loja-acai/tree/main">
+                    <img src="imgs/acai.jpg" width="100%" class="img"></a>
+            </div>
+            <h3>Projeto de uma copiadora em python:</h3>
+            <div class="proj"><!--Projeto para copiadora-->
+                <p>
+                    Projeto onde precisava desenvolver a interface de um sistema de cobrança de serviços de uma copiadora em python.
+                </p>
+                <!-- Link para o projeto da copiadora no GitHub -->
+                <a href="https://github.com/GiselaOliveira/Copiadora">
+                    <img src="imgs/copiadora.jpg" width="300px" class="img"></a>
+            </div>
+
+        </section>
+        <section id="l4"><!--Seção Contato-->
+            <h3>Contato:</h3>
+            <h2>Entre em <span>Contato</span></h2>
+            <form action="">
+                <!-- Campo para o nome do usuário -->
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" placeholder="Digite seu nome" size="25" maxlength="60"><br>
+                <!-- Campo para o e-mail do usuário -->
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" placeholder="Digite seu e-mail" size="25"><br>
+                <!-- Campo para a mensagem do usuário -->
+                <label for="mensagem">Mensagem:</label>
+                <textarea name="mensagem" rows="4" placeholder="Digite sua mensagem"></textarea>
+
+                <button type="submit">Enviar</button><!-- Botão de envio -->
+            </form>
+            <hr>
+        </section>
+        <a href="#" class="topo">↑</a><!--Botão para voltar ao topo-->
+    </main>
+
+</html>
+</body>
